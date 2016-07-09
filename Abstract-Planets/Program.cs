@@ -12,7 +12,7 @@ using System.Threading.Tasks;
     Date Created: July 1 2016
     Date Modified: July 8 2016 
     Description: Program runs 
-    Version 0.0.1 - Both Giant and Terrestrial planet classes have been created
+    Version 0.0.2 - Fixed Spelling Errors
  */
 namespace Abstract_Planets
 {
@@ -20,6 +20,7 @@ namespace Abstract_Planets
      * @Driver Class
      * Used to display planet information
      * Description: Contains Planet, GiantPlanet and Terrestrial Planet classes respectively
+     * 
      * **/
     class Program
     {
