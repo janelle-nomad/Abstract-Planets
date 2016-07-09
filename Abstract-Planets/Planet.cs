@@ -33,7 +33,7 @@ namespace Abstract_Planets
             }
         }
 
-        public double Mass
+        public double Mass //read-only method, aquires mass
         {
             get
             {
@@ -41,7 +41,7 @@ namespace Abstract_Planets
             }
         }
 
-        public int MoonCount
+        public int MoonCount //aquires # of moons
         {
             get
             {
@@ -55,7 +55,7 @@ namespace Abstract_Planets
         {
             get
             {
-                return _name;
+                return _name; //Gets the name of the planet
             }
 
         }
@@ -103,7 +103,7 @@ namespace Abstract_Planets
             this._mass = mass;
         }
 
-        public override string ToString()
+        public override string ToString() //Displays planet information within the driver class
         {
             return String.Format("Name of Planet: {0}\nDiameter of {1}: {2}\nMass of {3}: {4}", this.Name, this.Name, this.Diameter, this.Name, this.Mass);
         }

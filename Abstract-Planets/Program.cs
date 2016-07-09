@@ -12,7 +12,7 @@ using System.Threading.Tasks;
     Date Created: July 1 2016
     Date Modified: July 8 2016 
     Description: Program runs 
-    Version 0.0.2 - Fixed Spelling Errors
+    Version 0.0.4 - Added more documentation to increase readability
  */
 namespace Abstract_Planets
 {
@@ -33,17 +33,17 @@ namespace Abstract_Planets
             Console.WriteLine(Troidia.ToString()); //Based on the overide method
             Console.WriteLine("_______________________________________________");
 
-            Planet Thessia = new TerrestrialPlanet("Thessia", 102.97, 102.97, true);
+            Planet Thessia = new TerrestrialPlanet("Thessia", 102.97, 102.97, true); // "Thessia" reference to Mass Effect 2 ~ Assari Planet
             Console.WriteLine("_______________________________________________");
             Console.WriteLine(Thessia.ToString());
             Console.WriteLine("_______________________________________________");
 
-            Planet Venus = new GiantPlanet("Tukchana", 108.2, 97, "Fire");
+            Planet Venus = new GiantPlanet("Tukchana", 108.2, 97, "Fire"); // "Tukchana" reference to Mass Effect 2 ~ Wrex's planet
             Console.WriteLine("_______________________________________________");
             Console.WriteLine(Venus.ToString());
             Console.WriteLine("_______________________________________________");
 
-            Console.WriteLine("Press a key to end program");
+            Console.WriteLine("Press any key to end program");
             Console.ReadKey();
         }
     }
