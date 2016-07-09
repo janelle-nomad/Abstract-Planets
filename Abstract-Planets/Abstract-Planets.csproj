@@ -43,10 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GiantPlanet.cs" />
+    <Compile Include="IHabitable.cs" />
+    <Compile Include="IHasMoons.cs" />
+    <Compile Include="IHasRings.cs" />
+    <Compile Include="Planet.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TerrestrialPlanet.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="abstract_planetDiagram.cd" />
     <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
